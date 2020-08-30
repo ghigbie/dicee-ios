@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        diceImageViewOne.image = #imageLiteral(resourceName: "DiceSix")
+        diceImageViewTwo.image = #imageLiteral(resourceName: "DiceThree")
         // Do any additional setup after loading the view.
     }
 
