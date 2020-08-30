@@ -19,7 +19,9 @@ class ViewController: UIViewController {
         
         diceImageViewOne.image = #imageLiteral(resourceName: "DiceSix")
         diceImageViewTwo.image = #imageLiteral(resourceName: "DiceThree")
-        // Do any additional setup after loading the view.
+        diceImageViewOne.alpha = 0.5;
+        diceImageViewTwo.alpha = 0.6;
+
     }
 
 

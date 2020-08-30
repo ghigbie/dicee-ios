@@ -23,12 +23,8 @@
                                 <rect key="frame" x="87" y="92" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="IAg-p2-3fa">
-                                <rect key="frame" x="61" y="331" width="120" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="Z46-s7-cF7">
-                                <rect key="frame" x="218" y="331" width="120" height="120"/>
+                                <rect key="frame" x="241" y="331" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJo-J4-K2O">
@@ -42,15 +38,17 @@
                                     <color key="titleShadowColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="IAg-p2-3fa">
+                                <rect key="frame" x="58" y="331" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="diceImageViewOne" destination="IAg-p2-3fa" id="GcM-En-wl7"/>
-                        <outlet property="diceImageViewTwo" destination="Z46-s7-cF7" id="Ajk-1z-bNg"/>
-                        <outlet property="diceOne" destination="IAg-p2-3fa" id="yez-GV-yP6"/>
-                        <outlet property="fivrImageViewTwo" destination="Z46-s7-cF7" id="cjZ-yY-1Ha"/>
+                        <outlet property="diceImageViewOne" destination="IAg-p2-3fa" id="nc4-1A-cXn"/>
+                        <outlet property="diceImageViewTwo" destination="Z46-s7-cF7" id="Iep-NM-AEh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
